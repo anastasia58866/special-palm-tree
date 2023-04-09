@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="index.html">
+                <img src="logo.svg" alt="logotype">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__list"><a class="menu__link" href="index.html">Главная</a></li>
+                    <li class="menu__list"><a class="menu__link" href="students.html">Студенты</a></li>
+                    <li class="menu__list"><a class="menu__link menu__link_active" href="about.html">О курсе</a></li>
+                    <li class="menu__list"><a class="menu__link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <a class="button" href="#">Войти</a>
+        </header>
+        <main class="content-about">
+            <div class="form visible">
+                <h3 class="form__title">Войти на сайт</h3>
+                <form method="post">
+                    <input type="text" name="login" class="form__control" placeholder="Логин">
+                    <input type="password" name="password" class="form__control" placeholder="Пароль">
+                    <button class="button__submit" type="submit">Войти</button>
+                </form>
+            </div>
+            <h2 class="title">О курсе</h2>
+            <p class="content__text">Посмотрите видео о нас</p>
+            <img class="content_about_video" src="video.png" width="820" height="549.33" alt="видео">
+        </main>
+    </div>
+    <footer class="footer">
+        <p>2023 &copy; <a class="footer__text" href="#">учебный центр</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

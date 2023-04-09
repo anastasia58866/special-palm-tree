@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="index.html">
+                <img src="logo.svg" alt="logotype">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__list"><a class="menu__link" href="index.html">Главная</a></li>
+                    <li class="menu__list"><a class="menu__link" href="students.html">Студенты</a></li>
+                    <li class="menu__list"><a class="menu__link" href="about.html">О курсе</a></li>
+                    <li class="menu__list"><a class="menu__link menu__link_active" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="button" href="#">Войти</a>
+        </header>
+        <main class="content-contacts">
+            <div class="form visible">
+                <h3 class="form__title">Войти на сайт</h3>
+                <form method="post">
+                    <input type="text" name="login" class="form__control" placeholder="Логин">
+                    <input type="password" name="password" class="form__control" placeholder="Пароль">
+                    <button class="button__submit" type="submit">Войти</button>
+                </form>
+            </div>
+            <h2 class="contacts__title">Как нас найти 🗺️️</h2>
+            <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56224.22062050024!2d30.284084526412077!3d59.93480732544912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963110ebe9ea5b%3A0x86b0025c5a84a071!2z0JTQstC-0YDRhtC-0LLQsNGPINC_0LsuLCAyLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkwMDAw!5e0!3m2!1sru!2sru!4v1678883681332!5m2!1sru!2sru" width="1268" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3 class="contacts__subtitle">Наши контакты</h3>
+            <ul class="contacts__list">
+                <li class="contacts__item">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</li>
+                <li class="contacts__item">Тел: +7 (812) 555-55-55</li>
+            </ul>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>2023 &copy; <a class="footer__text" href="#">учебный центр</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
